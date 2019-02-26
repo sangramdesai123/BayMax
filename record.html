@@ -8,8 +8,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="css/s.css">
         <link rel="stylesheet" href="css/record.css">
+        <link rel="stylesheet" type="text/css" href="css/s.css">
+        <link rel="stylesheet" type="text/css" href="css/record.css">
+        <script type="text/javascript" src="js/record.js"></script>
     </head>
     <body>
         <header>
@@ -28,18 +30,26 @@
 
 
         <main class="">
-            <a href="#" class="btn btn-primary btn1 rightbtn">Create New <i class="glyphicon glyphicon-plus"></i> </a>
-             <div class="homecard">
-                <h4>Featured</h4>
-                <br>
-                <a href="#" class="btn  leftbtn">View Info </a>
-              </div>
+             <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
             </div>
-            <div class="homecard">
-              <h4 >Featured</h4>
-              <br>
-                <a href="#" class="btn  leftbtn">View Info </a>
+
+            <div id="London" class="tabcontent">
+              <h3>London</h3>
+              <p>London is the capital city of England.</p>
             </div>
+
+            <div id="Paris" class="tabcontent">
+              <h3>Paris</h3>
+              <p>Paris is the capital of France.</p>
+            </div>
+
+            <div id="Tokyo" class="tabcontent">
+              <h3>Tokyo</h3>
+              <p>Tokyo is the capital of Japan.</p>
+            </div> 
         </main>
     </body>
 </html>
