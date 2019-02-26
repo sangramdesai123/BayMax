@@ -15,6 +15,4 @@ function chat(val) {
   var elem = document.getElementById('homecard');
   elem.scrollTop = elem.scrollHeight;
 }
-window.setInterval(function() {
 
-}, 1000);
