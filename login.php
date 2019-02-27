@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link href="css/Main.css" rel="stylesheet"/>
+        <link href="css/login.css" rel="stylesheet"/>
         <script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/login.js"></script>
     </head>
@@ -9,11 +9,11 @@
             <div id="main"></div>
             
             <div id="loginform">
-                <form action="login.php" method="GET">
+                <form action="signup.php" method="GET">
                     <h1>LOGIN</h1>
                     <input name="email" type="email" placeholder="Email"/><br>
                     <input name="password" type="password" placeholder="Password"/><br>
-                    <button>LOGIN</button>
+                    <button name="login" value="login">LOGIN</button>
                 </form>
             </div>
             
@@ -21,9 +21,10 @@
                 <form action="signup.php" method="GET">
                     <h1>SIGN UP</h1>
                     <input  name="name" type="text" placeholder="Full Name"/><br>
+                    <input  name="name" type="text" placeholder="Mobile"/><br>
                     <input name="email" type="email" placeholder="Email"/><br>
                     <input name="password" type="password" placeholder="Password"/><br>
-                    <button>SIGN UP</button>
+                    <button name="signup" value="signup">SIGN UP</button>
                 </form>
             </div>
             

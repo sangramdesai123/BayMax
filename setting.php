@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+php<!DOCTYPE html>
 <html>
     <head>
         <title>Navigation bar DEMO</title>
@@ -15,12 +15,12 @@
            <img src="test1.png" width="150px" style="background-color: white;">
             <nav>
                 <ul>
-                    <li><a href="home.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
-                    <li><a href="care.html"><i class="glyphicon glyphicon-comment"></i> Care</a></li>
-                    <li><a href="record.html"><i class="glyphicon glyphicon-list-alt"></i> My Records</a></li>
-                    <li><a href="notification.html"><i class="glyphicon glyphicon-bell"></i> Notifications</a></li>
-                    <li><a href="chatbot.html"><i class="glyphicon glyphicon-new-window"></i> New Chat</a></li>
-                    <li><a href="setting.html"><i class="right glyphicon glyphicon-list"></i></a></li>                   
+                    <li><a href="home.php"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                    <li><a href="care.php"><i class="glyphicon glyphicon-comment"></i> Care</a></li>
+                    <li><a href="record.php"><i class="glyphicon glyphicon-list-alt"></i> My Records</a></li>
+                    <li><a href="notification.php"><i class="glyphicon glyphicon-bell"></i> Notifications</a></li>
+                    <li><a href="chatbot.php"><i class="glyphicon glyphicon-new-window"></i> New Chat</a></li>
+                    <li><a href="setting.php"><i class="right glyphicon glyphicon-list"></i></a></li>                   
                 </ul>
             </nav>
         </header>

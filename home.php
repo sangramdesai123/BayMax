@@ -17,12 +17,12 @@
            <img src="test1.png" width="150px" style="background-color: white;">
             <nav>
                 <ul>
-                    <li><a href="home.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
-                    <li><a href="care.html"><i class="glyphicon glyphicon-comment"></i> Care</a></li>
-                    <li><a href="record.html"><i class="glyphicon glyphicon-list-alt"></i> My Records</a></li>
-                    <li><a href="notification.html"><i class="glyphicon glyphicon-bell"></i> Notifications</a></li>
-                    <li><a href="chatbot.html"><i class="glyphicon glyphicon-new-window"></i> New Chat</a></li>
-                    <li><a href="setting.html"><i class="right glyphicon glyphicon-list"></i></a></li>                   
+                    <li><a href="home.php"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                    <li><a href="care.php"><i class="glyphicon glyphicon-comment"></i> Care</a></li>
+                    <li><a href="record.php"><i class="glyphicon glyphicon-list-alt"></i> My Records</a></li>
+                    <li><a href="notification.php"><i class="glyphicon glyphicon-bell"></i> Notifications</a></li>
+                    <li><a href="chatbot.php"><i class="glyphicon glyphicon-new-window"></i> New Chat</a></li>
+                    <li><a href="setting.php"><i class="right glyphicon glyphicon-list"></i></a></li>                   
                 </ul>
             </nav>
         </header>
@@ -39,7 +39,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="chatbot.html" class="btn btn-primary">Assess my symptoms</a>
+                    <a href="chatbot.php" class="btn btn-primary">Assess my symptoms</a>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="forum.html" class="btn btn-primary">Ask Questions</a>
+                    <a href="forum.php" class="btn btn-primary">Ask Questions</a>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="talkdoctor.html" class="btn btn-primary">Talk To Doctor</a>
+                    <a href="talkdoctor.php" class="btn btn-primary">Talk To Doctor</a>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="guide.html" class="btn btn-primary">HealthCare Guid</a>
+                    <a href="guide.php" class="btn btn-primary">HealthCare Guid</a>
                 </div>
             </div>
         </div>
